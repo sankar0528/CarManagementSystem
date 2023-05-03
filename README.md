@@ -1,6 +1,6 @@
 # CarManagementSystem
 
-Features of this project-
+**Features of this project-**
 
 1.Retrieve all cars
 2.Retrieve a single car by ID
@@ -8,7 +8,7 @@ Features of this project-
 4.Update an existing car
 5.Delete a car
 
-Environment-
+**Environment-**
 
 ->Spring Tool suit IDE
 ->Java 17
@@ -18,14 +18,14 @@ Environment-
 ->spring data jpa
 ->spring security
 
-Operating Instructions-
+**Operating Instructions-**
 
 Download source code and import into your code editor (Spring suit tool).
 The project is created with springboot, so you just need to import it to your IDE and build the project to resolve the dependencies
 If there are no errors, run program.
 Use Postman to check app or use tests.
 
-POST METHOD
+**POST METHOD**
 /add
 {
 "id":"1",
@@ -33,18 +33,18 @@ POST METHOD
 "price":"20000"
 }
 
-GET METHOD
+**GET METHOD**
 /all
 list all cars in db
 /findby{id}
 list cars by id
 
-PUT METHOD
+**PUT METHOD**
 
 /update/{id}
 update cars with id
 
-DELETE METHOD
+**DELETE METHOD**
 
 /delete/{id}
 Delete car with ID.
